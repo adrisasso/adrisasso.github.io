@@ -1,0 +1,65 @@
+/* styles for a common effect !!!YOU NEED THEM */
+.effect {
+  /*display: flex; !!!uncomment this line !!!*/
+  
+  a {
+    text-decoration: none !important;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: $border-radius;
+    margin-right: 20px;
+    font-size: $font-size;
+    overflow: hidden;
+    position: relative;
+    color: $basic-dark-color; //or change to your own color
+    border: 2px solid $basic-dark-color; //or change to your own color
+    
+    i {
+      position: relative;
+      z-index: 3;
+    }
+    
+    &:last-child {
+      margin-right: 0px;
+    }
+    
+    &:before {
+      content: "";
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+    }
+    
+    i {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+}
+
+
+/* amiens effect */
+.effect.amiens {
+  
+  a {
+    transition: all 0.2s linear 0.2s;
+    
+    i {
+      transition: all 0.2s linear 0s;
+    }
+    
+    &:hover {
+      transition: all 0.2s linear 0s;
+      border-color: rgba($basic-dark-color,0);
+      
+      i {
+        transform: scale(1.15);
+        text-shadow: 4px 0px 3px rgba($basic-dark-color,0.3);
+        transition: all 0.2s linear 0.2s;
+      }
+    }
+  }
+}
