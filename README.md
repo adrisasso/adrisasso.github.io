@@ -1,4 +1,4 @@
 # portfolio
 
-she's a little messy
+she's ugly
 http://adrianasasso.github.io/
