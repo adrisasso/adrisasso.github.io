@@ -62,10 +62,6 @@ ul li {
 */
 
 .icon {
-    background-image: url(/img/as-photo.jpg);
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: contain;
     border-radius: 50%;
     width: 200px;
     height: 200px;
