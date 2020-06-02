@@ -38,6 +38,7 @@ h6 {
 
 ul {
     list-style-type: none;
+    display: inline;;
 }
 
 body, html {
@@ -96,19 +97,15 @@ section {
 
 }
 
-.grow {
+.fade {
     display: inline-block;
     vertical-align: middle;
-    transform: translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
+    transition: 0.3s;
 }
 
-.big:hover,
-.big:focus,
-.big:active {
-    transform: scale(1.5);
+.fade:hover {
+    opacity: 0.6;
 }
+
