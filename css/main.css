@@ -1,0 +1,105 @@
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Homemade Apple', Helvetica, cursive;
+    font-weight: 600;
+    color: #6D6875;
+    line-height: 1.5; 
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px; 
+}
+
+h2 {
+    font-size: 40px; 
+}
+
+h3 {
+    font-size: 20px; 
+}
+
+h4 {
+    font-size: 20px; 
+}
+
+h5 {
+    font-size: 18px; 
+}
+
+h6 {
+    font-size: 16px; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Homemade Apple', Helvetica, sans-serif;
+    font-size: 15px;
+    color: #6d6875;; 
+}
+
+a, a:hover {
+    color: inherit;
+    text-decoration: none; 
+}
+
+/*
+ul {
+    margin: 2rem 0;
+    list-style: none;
+    padding-left: 2rem; 
+}
+
+ul li {
+    padding: 0.5rem 0;
+    font-weight: 200; 
+}
+*/
+
+.icon {
+    background-image: url(/img/as-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+p {
+    margin: 1rem 0;
+    line-height: 1.8; 
+    font-family: 'Domine', serif;
+}
+
+.content {
+    max-width: 60rem;
+    margin: 0 auto;
+    width: 50%; 
+}
+
+section { 
+    padding: 4rem 0; 
+}
+
+.grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.big:hover,
+.big:focus,
+.big:active {
+    transform: scale(1.5);
+}
