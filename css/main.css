@@ -88,6 +88,10 @@ section {
     padding: 4rem 0; 
 }
 
+.landing {
+    height: 100vh;
+}
+
 .grow {
     display: inline-block;
     vertical-align: middle;
