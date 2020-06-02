@@ -44,7 +44,7 @@ h6 {
 
 .links li {
     display: inline-block;
-    float:none;
+    text-align: initial;
     padding: 10px 40px;
 }
 
@@ -98,10 +98,7 @@ section {
 
 .second {
     background-color: #FDB8B6;
-}
-
-.second h2 {
-
+    height: 90vh;
 }
 
 .fade {
@@ -110,7 +107,7 @@ section {
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     backface-visibility: hidden;
     transition: 0.3s;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .fade:hover {
