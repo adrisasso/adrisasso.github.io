@@ -92,6 +92,10 @@ section {
     height: 100vh;
 }
 
+.second {
+    background-color: #FDB8B6;
+}
+
 .grow {
     display: inline-block;
     vertical-align: middle;
