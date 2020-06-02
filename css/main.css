@@ -45,7 +45,7 @@ h6 {
 .links li {
     display: inline-block;
     text-align: initial;
-    padding: 10px 40px;
+    padding: 5px 20px;
 }
 
 body, html {
@@ -104,7 +104,7 @@ section {
     height: 100vh;
 }
 
-.second {
+.about {
     background-color: #FDB8B6;
     height: 90vh;
 }
