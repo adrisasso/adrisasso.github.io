@@ -33,9 +33,10 @@ h5 {
 
 h6 {
     font-family: 'Domine', Helvetica, serif;
-    font-size: 16px; 
-    margin: 0;
-    padding: 0;
+    font-size: 16px;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .links {
@@ -61,17 +62,23 @@ a, a:hover {
     text-decoration: none; 
 }
 
-.home {
+.title {
+    height: 200px;
     position: relative;
     text-align: center;
     background-image: url(/img/pink.png);
+    background-size: 70%, 100%;
+    background-repeat: no-repeat;
+    background-position: center;    
 }
 
-.home h1 {
-    position: absolute;
-    top: 50%;
+.title h1 {
+    position:relative;
     left: 50%;
+    top: 55%;
     transform: translate(-50%, -50%);
+
+    
 }
 
 .home h6 {
