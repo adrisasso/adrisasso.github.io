@@ -239,3 +239,10 @@ section {
 #about h2 {
     margin-bottom: 0px;
 }
+
+#experience {
+    background-color: #fff9f5;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: center;
+}
