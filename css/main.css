@@ -6,12 +6,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-family: 'Homemade Apple', Helvetica, cursive;
+    font-family: 'Domine', Helvetica, serif;
     font-size: 50px; 
 }
 
 h2 {
-    font-family: 'Homemade Apple', Helvetica, cursive;
+    font-family: 'Domine', Helvetica, serif;
     font-size: 40px; 
 }
 
@@ -39,7 +39,7 @@ h6 {
     font-family: 'Domine', Helvetica, serif;
     font-size: 16px;
     padding: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 3px;
     margin-top: 0px;
 }
 
@@ -48,7 +48,8 @@ p {
     line-height: 1; 
     font-family: 'Domine', serif;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    color: #6D6875;
 }
 
 body, html {
@@ -56,7 +57,7 @@ body, html {
     height: 100%;
     font-family: 'Domine', Helvetica, serif;
     font-size: 15px;
-    color: #6d6875;; 
+    background-color: #fff9f5;
 }
 
 
@@ -123,7 +124,7 @@ body, html {
 }
 
 #landing {
-    height: 100vh;
+    height: 90vh;
     text-align: center;
 }
 
@@ -252,8 +253,10 @@ section {
 }
 
 #experience {
-    background-color: #fff9f5;
     margin-left: -10px;
     margin-right: -10px;
+    text-align: center;
+}
+#involvement {
     text-align: center;
 }
