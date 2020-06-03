@@ -232,3 +232,12 @@ section {
     padding: 10px 10px;
     font-size: 30px;
 }
+
+@media screen and (max-width: 600px) {
+    .contact h2 {
+        font-size: 30px;
+    }
+    .contact li {
+        font-size: 25px;
+    }
+}
