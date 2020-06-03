@@ -120,12 +120,12 @@ body, html {
 }
 
 .arrow {
+    margin: 0 auto;
     font-size: 40px;
     border: none;
     color: #6D6875;
     padding: 14px 16px;
     background-color: inherit; 
-    margin-top: 0px;
     text-align: center;
 }
 
