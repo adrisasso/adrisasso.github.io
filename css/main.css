@@ -21,7 +21,7 @@ h2 {
 
 h3 {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 20px; 
+    font-size: 24px; 
     margin-bottom: 0px;
     margin-top: 0px;
 }
@@ -33,7 +33,7 @@ h4 {
 
 h5 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px; 
+    font-size: 20px; 
     padding: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -55,6 +55,7 @@ p {
     margin-bottom: 10px;
     color: #021D3A;
     text-align: justify;
+    font-size: 18px;
 }
 
 body, html {
@@ -212,6 +213,7 @@ section {
     line-height: 1.5; 
     font-family: 'Barlow Condensed', sans-serif;
     color: #021D3A;
+    font-size: 16px;
 }
 
 .banquetpic {
