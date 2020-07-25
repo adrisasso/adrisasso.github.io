@@ -107,6 +107,7 @@ body, html {
     background-color: #C457A6;
     width: 400px;
     height: 300px;
+    max-width: 100%;
     /*
     background-image: url(/img/pink.png);
     background-size: 70%, 100%;
@@ -216,21 +217,13 @@ section {
     font-size: 16px;
 }
 
-.banquetpic {
-    display: inline-block;
-    position: relative;
-    background-image: url(/img/banquet.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 400px;
-    height: 300px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+#involvement img {
+    max-width: 100%;
+    max-height: auto;
     opacity: .85;
 }
 
-.banquetpic:hover {
+#involvement img:hover {
     opacity: 1;
 }
 
