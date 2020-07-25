@@ -1,4 +1,5 @@
-# portfolio
+# Personal portfolio
 
-she's ugly
+She's kind of ugly still but a work in progress
+
 http://adrisasso.github.io/
