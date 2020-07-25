@@ -219,6 +219,7 @@ section {
 
 #involvement img {
     max-width: 100%;
+    width: 600px;
     max-height: auto;
     opacity: .85;
 }
