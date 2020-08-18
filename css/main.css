@@ -162,8 +162,8 @@ body, html {
     background-position: center;
     background-size: contain;
     border-radius: 50%;
-    width: 190px;
-    height: 190px;
+    width: 220px;
+    height: 220px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -181,7 +181,7 @@ section {
 
 #about {
     background-color: #C457A6;
-    height: 50vh;
+    height: 60vh;
     margin-left: -10px;
     margin-right: -10px;
     text-align: center;
@@ -197,14 +197,80 @@ section {
     font-size: 18px;
 }
 
+#education {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#education p { 
+    float:left;
+    height: auto; 
+    width: 100px; 
+    margin-left:100px }
+
+#education img {
+    width: 300px;
+    max-height: auto;
+    opacity: .85;
+    margin-left: 30%;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+#education > img {
+    float: left;
+}
+#education, #text {
+    overflow: hidden;
+}
+
+
+#education h3 {
+    text-align: left;
+}
+
+#education h6 {
+    text-align: left;
+}
+
+#education ul {
+    text-align: left;
+    color: #021D3A;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 1.5; 
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #021D3A;
+    font-size: 18px;
+    list-style-type: none;
+    padding: 0;
+}
+
+#education img:hover {
+    opacity: 1;
+}
+
 #experience {
     margin-left: -10px;
     margin-right: -10px;
     text-align: center;
 }
+
+#experience img {
+    max-width: 100%;
+    width: 600px;
+    max-height: auto;
+    opacity: .85;
+}
+
+#experience img:hover {
+    opacity: 1;
+}
+
 #involvement {
     text-align: center;
 }
+
 
 #involvement ul {
     text-align: left;
@@ -285,4 +351,29 @@ section {
     .contact li {
         font-size: 25px;
     }
+}
+
+
+#education .content {
+    padding-left: 15px;
+    padding-top: 75px;
+}
+
+#education .image {
+  width: 15%;
+  height: 200px;
+  background: red;
+  float: left;
+}
+
+.education {
+    
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
 }
