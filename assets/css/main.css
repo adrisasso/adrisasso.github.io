@@ -2936,15 +2936,22 @@
 				color: #fff;
 				left: 2.5em;
 				top: 2em;
+                background: rgba(255, 255, 255, 0.1);
+                height: 3em;
 			}
 
 				#header.alt h1 a {
+					color: #a7a7a7;
+				}
+
+                #header.alt h1 a:hover {
 					color: #fff;
 				}
 
 			#header.alt nav {
 				right: 2em;
 				top: 2em;
+                height: 3em;
                 background: rgba(255, 255, 255, 0.1)
 
 			}
