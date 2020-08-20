@@ -2819,6 +2819,15 @@
 		}
 
 /* Header */
+#navbar {
+    position: fixed;
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    margin: -10px;
+    z-index: 3;
+    
+}
 
 	#header {
 		background-color: #fff;
@@ -2839,7 +2848,7 @@
 	}
 
 		#header h1 {
-			color: #484848;
+			color: #fff;
 			font-weight: 400;
 			height: inherit;
 			left: 1.25em;
@@ -2936,16 +2945,16 @@
 			#header.alt nav {
 				right: 2em;
 				top: 2em;
-                background-color: #767676;
-                opacity: 0.4;
+                background: rgba(255, 255, 255, 0.1)
+
 			}
 
 				#header.alt nav a {
-					color: white;
+					color: #a7a7a7;
 				}
 
 					#header.alt nav a:active, #header.alt nav a:hover {
-						color: black;
+						color: #a7a7a7;
 					}
 
 			#header.alt .button {
@@ -3312,3 +3321,5 @@
 #projects {
     background-color: #f6f6f6;
 }
+
+
