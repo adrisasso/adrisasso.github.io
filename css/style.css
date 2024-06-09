@@ -88,6 +88,17 @@ p {
   color: #000000;
 }
 
+#projects {
+  margin: 5%;
+}
+
+#projects h3 {
+  font-size: 32px;
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: left;
+  color: #000000;
+}
+
 /* Footer */
 
 footer {
